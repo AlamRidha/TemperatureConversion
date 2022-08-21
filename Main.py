@@ -29,3 +29,18 @@ def konversiReamur(reamur):
     # kelvin
     kelvin = ((5/4) * reamur) + 273
     print(reamur, " Reamur = ", kelvin, " Kelvin")
+
+
+# fungsi konversi fahrenheit ke celcius, reamur dan kelvin
+def konversiFahrenheit(fahrenheit):
+    # celcius
+    celcius = ((5/9) * (fahrenheit - 32))
+    print(fahrenheit, " Fahrenheit = ", celcius, " Celcius")
+
+    # reamur
+    reamur = ((4/9) * (fahrenheit - 32))
+    print(fahrenheit, " Fahrenheit = ", reamur, " Reamur")
+
+    # kelvin
+    kelvin = (5/9) * (fahrenheit - 32) + 273
+    print(fahrenheit, " Fahrenheit = ", kelvin, " Kelvin")
