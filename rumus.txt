@@ -1,0 +1,6 @@
+RUMUS
+           |  CELCIUS  |   REAMUR   | FAHRENHEIT |      KELVIN     |
+CELCIUS    |           |    4/5C    | 9/5C + 32  |     C + 273     |
+REAMUR     |   5/4R    |            | 9/4R + 32  |     5/4R+273    |
+FAHRENHEIT | 5/9(F-32) |  4/9(F-32) |            | 5/9(F-32) + 273 |
+KELVIN     | K - 273   |  4/5(K-273)|            |                 |
