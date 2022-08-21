@@ -59,3 +59,15 @@ def konversiKelvin(kelvin):
     # fahrenheit
     fahrenheit = (9/5)*(kelvin-273) + 32
     print(kelvin, " Kelvin = ", fahrenheit, " Fahrenheit")
+
+
+# main program
+suhu = float(input("masukkan angka : "))
+print("Suhunya adalah : ", suhu, "\n")
+konversiCelcius(suhu)
+print()
+konversiReamur(suhu)
+print()
+konversiFahrenheit(suhu)
+print()
+konversiKelvin(suhu)
